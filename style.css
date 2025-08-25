@@ -1,0 +1,62 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: hsla(197, 82%, 40%, 0.829);
+  color: lch(0.55% 0 296.81 / 0.664);
+}
+
+/* Navigation */
+header {
+  background: lch(89.37% 89.69 104.01 / 0.74);
+  color: rgba(16, 116, 156, 0.623);
+  padding: 15px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: rgba(0, 224, 240, 0.603);
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #327e96b4;
+}
+
+/* Main Content */
+main {
+  padding: 40px;
+}
+
+/* Services List */
+main ul {
+  list-style: none;
+  padding: 0;
+}
+
+main ul li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Watermark Logo */
+.watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.25;
+  z-index: -1;
+}
+
+.watermark img {
+  width: 455px;
+  height: auto;
+}
